@@ -1,7 +1,6 @@
 $(document).ready(function () {
     var count = 0;
     var time = 31;
-    var isSelected = false;
     var ticker;
     var correct = 0;
     var incorrect = 0;
@@ -10,11 +9,11 @@ $(document).ready(function () {
         "What Is The Capital of North Dakota?", "What Is The Capital of Montana?", "What Is The Capital of Wisconsin?"];
     var answer = ["Austin", "Topeka", "Augusta", "Cheyenne", "Concord", "Bismarck", "Helena", "Madison"];
 
-    var firstChoice = ["Austin", "Washington, D.C.", "Augusta", "Boston", "Augusta", "Bismarck", "Nashville", "Columbia",];
-    var secondChoice = ["Washington, D.C.", "Phoenix", "Tallahassee", "Cheyenne", "Boise", "Honolulu", "Columbus", "Columbus"];
-    var thirdChoice = ["Little Rock", "Denver", "Atlanta", "Austin", "Concord", "Topeka", "Helana", "Charleston"];
-    var fourthChoice = ["Sacramento", "Topeka", "Denver", "Little Rock", "Lansing", "Austin", "Montpelier", "Madison"];
-    //                           01               1            
+    var firstChoice =  ["Austin",           "Washington, D.C.", "Augusta",     "Boston",      "Augusta", "Bismarck", "Nashville",  "Columbia",];
+    var secondChoice = ["Washington, D.C.", "Phoenix",          "Tallahassee", "Cheyenne",    "Boise",   "Honolulu", "Columbus",   "Columbus"];
+    var thirdChoice =  ["Little Rock",      "Denver",           "Atlanta",     "Austin",      "Concord", "Topeka",   "Helana",     "Charleston"];
+    var fourthChoice = ["Sacramento",       "Topeka",           "Denver",      "Little Rock", "Lansing", "Austin",   "Montpelier", "Madison"];
+    //                      0                   1                   2               3              4         5             6            7
     function showHolders() {
         $("#question-holder").show();
         $("#choice-holder-1").show();
