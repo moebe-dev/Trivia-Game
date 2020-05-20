@@ -155,7 +155,7 @@ $(document).ready(function () {
     function displayImage() {
         if (count === 0) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="../images/Texas Austin.jpg">');
+            $("#image-holder").html('<img src="assets\images\Texas Austin.jpg">');
         }
         else if (count === 1) {
             $("#image-holder").show();
