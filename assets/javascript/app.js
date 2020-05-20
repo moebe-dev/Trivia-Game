@@ -155,35 +155,35 @@ $(document).ready(function () {
     function displayImage() {
         if (count === 0) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets\images\Texas Austin.jpg">');
+            $("#image-holder").html('<img src="https://cdn.discordapp.com/attachments/704118837536358471/712654072603213894/Texas_Austin.jpg">');
         }
         else if (count === 1) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/Kansas Topeka.jpg">');
+            $("#image-holder").html('<img src="https://cdn.discordapp.com/attachments/704118837536358471/712654105704661052/Kansas_Topeka.jpg">');
         }
         else if (count === 2) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/../assets/images/Maine Augusta.jpg">');
+            $("#image-holder").html('<img src="https://cdn.discordapp.com/attachments/704118837536358471/712654125887914054/Maine_Augusta.jpg">');
         }
         else if (count === 3) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="../images/Wyoming Cheyenne.jpg">');
+            $("#image-holder").html('<img src="https://cdn.discordapp.com/attachments/704118837536358471/712654144577470535/Wyoming_Cheyenne.jpg">');
         }
         else if (count === 4) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="../images/New Hampshire Concord.jpg">');
+            $("#image-holder").html('<img src="https://cdn.discordapp.com/attachments/704118837536358471/712654173358784512/New_Hampshire_Concord.jpg">');
         }
         else if (count === 5) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="../images/North Dakota Bismarck.jpg">');
+            $("#image-holder").html('<img src="https://cdn.discordapp.com/attachments/704118837536358471/712654197983543437/North_Dakota_Bismarck.jpg">');
         }
         else if (count === 6) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="../images/Montana Helena.jpg">');
+            $("#image-holder").html('<img src="https://cdn.discordapp.com/attachments/704118837536358471/712654243021979688/Montana_Helena.jpg">');
         }
         else if (count === 7) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="../images/Wisconsin Madison.jpg">');
+            $("#image-holder").html('<img src="https://cdn.discordapp.com/attachments/704118837536358471/712654253193429102/Wisconsin_Madison.jpg">');
         }
     }
 
