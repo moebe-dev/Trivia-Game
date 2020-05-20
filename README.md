@@ -1,2 +1,0 @@
-# TriviaGame
-# Muhammad Ali

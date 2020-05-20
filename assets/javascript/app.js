@@ -5,15 +5,17 @@ $(document).ready(function () {
     var correct = 0;
     var incorrect = 0;
     var unanswered = 0;
+
     var question = ["What Is The Capital of Texas?", "What Is The Capital of Kansas?", "What Is The Capital of Maine?", "What Is The Capital of Wyoming?", "What Is The Capital of New Hampshire?",
         "What Is The Capital of North Dakota?", "What Is The Capital of Montana?", "What Is The Capital of Wisconsin?"];
+
     var answer = ["Austin", "Topeka", "Augusta", "Cheyenne", "Concord", "Bismarck", "Helena", "Madison"];
 
-    var firstChoice =  ["Austin",           "Washington, D.C.", "Augusta",     "Boston",      "Augusta", "Bismarck", "Nashville",  "Columbia",];
-    var secondChoice = ["Washington, D.C.", "Phoenix",          "Tallahassee", "Cheyenne",    "Boise",   "Honolulu", "Columbus",   "Columbus"];
-    var thirdChoice =  ["Little Rock",      "Denver",           "Atlanta",     "Austin",      "Concord", "Topeka",   "Helana",     "Charleston"];
-    var fourthChoice = ["Sacramento",       "Topeka",           "Denver",      "Little Rock", "Lansing", "Austin",   "Montpelier", "Madison"];
-    //                      0                   1                   2               3              4         5             6            7
+    var firstChoice = ["Austin", "Washington, D.C.", "Augusta", "Boston", "Augusta", "Bismarck", "Nashville", "Columbia",];
+    var secondChoice = ["Washington, D.C.", "Phoenix", "Tallahassee", "Cheyenne", "Boise", "Honolulu", "Columbus", "Columbus"];
+    var thirdChoice = ["Little Rock", "Denver", "Atlanta", "Austin", "Concord", "Topeka", "Helena", "Charleston"];
+    var fourthChoice = ["Sacramento", "Topeka", "Denver", "Little Rock", "Lansing", "Austin", "Montpelier", "Madison"];
+
     function showHolders() {
         $("#question-holder").show();
         $("#choice-holder-1").show();
@@ -153,7 +155,7 @@ $(document).ready(function () {
     function displayImage() {
         if (count === 0) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/Texas Austin.jpg">');
+            $("#image-holder").html('<img src="../images/Texas Austin.jpg">');
         }
         else if (count === 1) {
             $("#image-holder").show();
@@ -161,27 +163,27 @@ $(document).ready(function () {
         }
         else if (count === 2) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/Maine Augusta.jpg">');
+            $("#image-holder").html('<img src="/../assets/images/Maine Augusta.jpg">');
         }
         else if (count === 3) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/Wyoming Cheyenne.jpg">');
+            $("#image-holder").html('<img src="../images/Wyoming Cheyenne.jpg">');
         }
         else if (count === 4) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/New Hampshire Concord.jpg">');
+            $("#image-holder").html('<img src="../images/New Hampshire Concord.jpg">');
         }
         else if (count === 5) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/North Dakota Bismarck.jpg">');
+            $("#image-holder").html('<img src="../images/North Dakota Bismarck.jpg">');
         }
         else if (count === 6) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/Montana Helena.jpg">');
+            $("#image-holder").html('<img src="../images/Montana Helena.jpg">');
         }
         else if (count === 7) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="/assets/images/Wisconsin Madison.jpg">');
+            $("#image-holder").html('<img src="../images/Wisconsin Madison.jpg">');
         }
     }
 
